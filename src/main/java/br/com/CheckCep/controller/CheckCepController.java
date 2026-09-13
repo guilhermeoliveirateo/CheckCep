@@ -10,7 +10,7 @@ import org.springframework.web.client.RestTemplate;
 import br.com.CheckCep.domain.CheckCepDomain;
 
 @RestController
-@RequestMapping
+@RequestMapping("/api/cep")
 
 public class CheckCepController {
 
